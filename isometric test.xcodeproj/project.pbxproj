@@ -133,6 +133,9 @@
 		E044CF2F174B318A00313CD0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E044CF2E174B318A00313CD0 /* AppDelegate.m */; };
 		E044CF32174B318A00313CD0 /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E044CF31174B318A00313CD0 /* HelloWorldLayer.m */; };
 		E044CF35174B318A00313CD0 /* IntroLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E044CF34174B318A00313CD0 /* IntroLayer.m */; };
+		E044CF3D174B324000313CD0 /* isometric_grass_and_water.png in Resources */ = {isa = PBXBuildFile; fileRef = E044CF3B174B323F00313CD0 /* isometric_grass_and_water.png */; };
+		E044CF3E174B324000313CD0 /* isometric.tmx in Resources */ = {isa = PBXBuildFile; fileRef = E044CF3C174B323F00313CD0 /* isometric.tmx */; };
+		E044CF40174C1F1200313CD0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E044CF3F174C1F1200313CD0 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -398,6 +401,9 @@
 		E044CF31174B318A00313CD0 /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
 		E044CF33174B318A00313CD0 /* IntroLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroLayer.h; sourceTree = "<group>"; };
 		E044CF34174B318A00313CD0 /* IntroLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroLayer.m; sourceTree = "<group>"; };
+		E044CF3B174B323F00313CD0 /* isometric_grass_and_water.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = isometric_grass_and_water.png; sourceTree = "<group>"; };
+		E044CF3C174B323F00313CD0 /* isometric.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = isometric.tmx; sourceTree = "<group>"; };
+		E044CF3F174C1F1200313CD0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -423,6 +429,7 @@
 		E044CD97174B318800313CD0 = {
 			isa = PBXGroup;
 			children = (
+				E044CF3F174C1F1200313CD0 /* Default-568h@2x.png */,
 				E044CDB5174B318800313CD0 /* isometric test */,
 				E044CDA2174B318800313CD0 /* Frameworks */,
 				E044CDA1174B318800313CD0 /* Products */,
@@ -472,6 +479,8 @@
 		E044CDB6174B318800313CD0 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				E044CF3B174B323F00313CD0 /* isometric_grass_and_water.png */,
+				E044CF3C174B323F00313CD0 /* isometric.tmx */,
 				E044CDB7174B318800313CD0 /* Default.png */,
 				E044CDB9174B318800313CD0 /* Default-Landscape~ipad.png */,
 				E044CDBB174B318800313CD0 /* fps_images.png */,
@@ -895,6 +904,9 @@
 				E044CDCC174B318800313CD0 /* Icon@2x.png in Resources */,
 				E044CDCF174B318800313CD0 /* iTunesArtwork in Resources */,
 				E044CF0D174B318A00313CD0 /* ChangeLog in Resources */,
+				E044CF3D174B324000313CD0 /* isometric_grass_and_water.png in Resources */,
+				E044CF3E174B324000313CD0 /* isometric.tmx in Resources */,
+				E044CF40174C1F1200313CD0 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1067,11 +1079,13 @@
 					"\"isometric test/libs/kazmath/include\"",
 				);
 				INFOPLIST_FILE = "isometric test/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_LDFLAGS = (
 					"-lz",
 					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1087,11 +1101,13 @@
 					"\"isometric test/libs/kazmath/include\"",
 				);
 				INFOPLIST_FILE = "isometric test/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_LDFLAGS = (
 					"-lz",
 					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
