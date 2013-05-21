@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5055142D174C385C00CEE25B /* isometric.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 5055142B174C385C00CEE25B /* isometric.tmx */; };
+		5055142E174C385C00CEE25B /* isometric_grass_and_water.png in Resources */ = {isa = PBXBuildFile; fileRef = 5055142C174C385C00CEE25B /* isometric_grass_and_water.png */; };
 		E044CDA4174B318800313CD0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E044CDA3174B318800313CD0 /* QuartzCore.framework */; };
 		E044CDA6174B318800313CD0 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E044CDA5174B318800313CD0 /* OpenGLES.framework */; };
 		E044CDA8174B318800313CD0 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E044CDA7174B318800313CD0 /* OpenAL.framework */; };
@@ -133,12 +135,12 @@
 		E044CF2F174B318A00313CD0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E044CF2E174B318A00313CD0 /* AppDelegate.m */; };
 		E044CF32174B318A00313CD0 /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E044CF31174B318A00313CD0 /* HelloWorldLayer.m */; };
 		E044CF35174B318A00313CD0 /* IntroLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E044CF34174B318A00313CD0 /* IntroLayer.m */; };
-		E044CF3D174B324000313CD0 /* isometric_grass_and_water.png in Resources */ = {isa = PBXBuildFile; fileRef = E044CF3B174B323F00313CD0 /* isometric_grass_and_water.png */; };
-		E044CF3E174B324000313CD0 /* isometric.tmx in Resources */ = {isa = PBXBuildFile; fileRef = E044CF3C174B323F00313CD0 /* isometric.tmx */; };
 		E044CF40174C1F1200313CD0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E044CF3F174C1F1200313CD0 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5055142B174C385C00CEE25B /* isometric.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = isometric.tmx; sourceTree = "<group>"; };
+		5055142C174C385C00CEE25B /* isometric_grass_and_water.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = isometric_grass_and_water.png; sourceTree = "<group>"; };
 		E044CDA0174B318800313CD0 /* isometric test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "isometric test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E044CDA3174B318800313CD0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		E044CDA5174B318800313CD0 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -401,8 +403,6 @@
 		E044CF31174B318A00313CD0 /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
 		E044CF33174B318A00313CD0 /* IntroLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroLayer.h; sourceTree = "<group>"; };
 		E044CF34174B318A00313CD0 /* IntroLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroLayer.m; sourceTree = "<group>"; };
-		E044CF3B174B323F00313CD0 /* isometric_grass_and_water.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = isometric_grass_and_water.png; sourceTree = "<group>"; };
-		E044CF3C174B323F00313CD0 /* isometric.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = isometric.tmx; sourceTree = "<group>"; };
 		E044CF3F174C1F1200313CD0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -479,8 +479,8 @@
 		E044CDB6174B318800313CD0 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				E044CF3B174B323F00313CD0 /* isometric_grass_and_water.png */,
-				E044CF3C174B323F00313CD0 /* isometric.tmx */,
+				5055142B174C385C00CEE25B /* isometric.tmx */,
+				5055142C174C385C00CEE25B /* isometric_grass_and_water.png */,
 				E044CDB7174B318800313CD0 /* Default.png */,
 				E044CDB9174B318800313CD0 /* Default-Landscape~ipad.png */,
 				E044CDBB174B318800313CD0 /* fps_images.png */,
@@ -904,9 +904,9 @@
 				E044CDCC174B318800313CD0 /* Icon@2x.png in Resources */,
 				E044CDCF174B318800313CD0 /* iTunesArtwork in Resources */,
 				E044CF0D174B318A00313CD0 /* ChangeLog in Resources */,
-				E044CF3D174B324000313CD0 /* isometric_grass_and_water.png in Resources */,
-				E044CF3E174B324000313CD0 /* isometric.tmx in Resources */,
 				E044CF40174C1F1200313CD0 /* Default-568h@2x.png in Resources */,
+				5055142D174C385C00CEE25B /* isometric.tmx in Resources */,
+				5055142E174C385C00CEE25B /* isometric_grass_and_water.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1132,6 +1132,7 @@
 				E044CF3A174B318A00313CD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
